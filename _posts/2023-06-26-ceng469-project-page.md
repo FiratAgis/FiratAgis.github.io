@@ -84,9 +84,27 @@ $$\begin{align*}
 
 #### Scene
 
+To keep my test cases through, I tested all cases in a very simple scene. It consists of a closed room, with a large central model, which is the standart armadillo model for out case. In each side of the central model lies a light source, which is repesented by spheres. Finally, also in each side of the central figure lies small models, which are utah teapots for this demonstration, placed in a way that the central would cast shadows on them. Left light source is always on in all cases with a luminance value of 1. When it is on, right light source has a luminance value of $$512$$.
+
 #### Variables
 
-### Video Comperasion
+I worked with 4 scenerios.
+
+1. Right light is turned on at frame 30, and stayed on until the end of the scene.
+2. Right light is turned off at the frame 30 and stayed off untill the end of the scene.
+3. Right light is turned on at frame 30 and turned back off at frame 60.
+4. Right light is turned off at frame 30 and turned back on at frame 60.
+
+First 2 cases are designed to simulate changes in the light level, while the other 2 cases are designed to simulate a sudden flash of light or darkness.
+
+For all cases, I worked with 20 different values for the weight $$w$$ used in $$\text{avg}_x$$ function. In comparison videos, they are situated as such:
+
+| $$0.005$$ | $$0.010$$ | $$0.020$$ | $$0.030$$ | $$0.040$$ |
+| $$0.050$$ | $$0.060$$ | $$0.070$$ | $$0.080$$ | $$0.090$$ |
+| $$0.100$$ | $$0.200$$ | $$0.300$$ | $$0.400$$ | $$0.500$$ |
+| $$0.600$$ | $$0.700$$ | $$0.800$$ | $$0.900$$ | $$1.000$$ |
+
+### Video Comparison
 
 ### Convergence Speed
 
