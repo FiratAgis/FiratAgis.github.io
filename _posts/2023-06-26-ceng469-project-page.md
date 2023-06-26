@@ -115,7 +115,7 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 1 Formula 1
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_1_form_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -127,7 +127,7 @@ Your browser does not support the video tag.
 
 #### Case 2 Formula 1
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_2_form_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -139,7 +139,7 @@ Your browser does not support the video tag.
 
 #### Case 3 Formula 1
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_3_form_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -151,7 +151,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 1
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_4_form_1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -165,7 +165,7 @@ Your browser does not support the video tag.
 
 #### Case 1 Formula 2
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_1_form_2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -177,7 +177,7 @@ Your browser does not support the video tag.
 
 #### Case 2 Formula 2
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_2_form_2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -189,7 +189,7 @@ Your browser does not support the video tag.
 
 #### Case 3 Formula 2
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_3_form_2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -201,7 +201,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 2
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_4_form_2.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -215,7 +215,7 @@ Your browser does not support the video tag.
 
 #### Case 1 Formula 3
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_1_form_3.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -227,7 +227,7 @@ Your browser does not support the video tag.
 
 #### Case 2 Formula 3
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_2_form_3.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -239,7 +239,7 @@ Your browser does not support the video tag.
 
 #### Case 3 Formula 3
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_3_form_3.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -251,7 +251,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 3
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_4_form_3.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -265,7 +265,7 @@ Your browser does not support the video tag.
 
 #### Case 1 Formula 4
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_1_form_4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -277,7 +277,7 @@ Your browser does not support the video tag.
 
 #### Case 2 Formula 4
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_2_form_4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -289,7 +289,7 @@ Your browser does not support the video tag.
 
 #### Case 3 Formula 4
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_3_form_4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
@@ -301,7 +301,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 4
 
-<video width="3000" height="2400" controls>
+<video width="1000" height="800" controls>
   <source src="{{site.url}}/videos/case_4_form_4.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
