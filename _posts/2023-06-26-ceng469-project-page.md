@@ -24,7 +24,9 @@ Reinhard's Global Operator uses a log-average luminance as the approximation of 
 
 ## My Temporal TMO
 
-I tried 4 formulas for my project, 2 of which used aritmatic weighted average and 2 of which used geometric weighted average. If $\overline{L}_w(i)$ is the avarage white of the frame $i$ and $\dot{L}_w(i)$ is the calculated average white of frame $i$, that is actually used in rendering the frame, $w$ is the weight of the current frame, $\text{av}_x(w, \underline{L}_w, \dot{L}_w)$ is averaging function of type $x$ (where $\underline{L}_w$ has the weight $w$ and $\dot{L}_w$ has the weight $1-w$), and finally $\text{Rend}(X)$ calculated $L(x,y)$ as $$L(x,y) = X \times L_w(x, y),$$ my formulas can be described as the following.
+I tried 4 formulas for my project, 2 of which used aritmatic weighted average and 2 of which used geometric weighted average. If $$\overline{L}_w(i)$$ is the avarage white of the frame $$i$$ and $$\dot{L}_w(i)$$ is the calculated average white of frame $$i$$, that is actually used in rendering the frame, $$w$$ is the weight of the current frame, $$\text{av}_x(w, \underline{L}_w, \dot{L}_w)$$ is averaging function of type $$x$$ (where $$\underline{L}_w$$ has the weight $$w$$ and $$\dot{L}_w$$ has the weight $$1-w$$), and finally $$\text{Rend}(X)$$ calculated $L(x,y)$ as 
+$$L(x,y) = X \times L_w(x, y),$$
+my formulas can be described as the following.
 
 ### Formula 1
 ```math
@@ -54,14 +56,14 @@ I tried 4 formulas for my project, 2 of which used aritmatic weighted average an
 \end{align*}
 ```
 ### Formula 4
-```math
-\begin{align*}
+
+$$\begin{align*}
 \overline{L}_w(i) &= \exp{\left(\dfrac{\sum_{x, y} \log{(\epsilon + L_w(x,y,i))}}{N} \right)}\\
 \dot{L}_w(i) &= \begin{cases}\ \overline{L}_w(i)&, i=0\\ \text{av}_4(w, \overline{L}_w(i), \dot{L}_w(i-1))&, i \neq 0  \end{cases}\\
 \text{av}_4(w, \overline{L}_w, \dot{L}_w) &= \exp{( w * \log{\overline{L}_w} + (1-w)\log{\dot{L}_w})}\\
 \text{Rend}&\left(\frac{\alpha}{\dot{L}_w(i)}\right)
-\end{align*}
-```
+\end{align*}$$
+
 ## Implementation
 
 ## Results
