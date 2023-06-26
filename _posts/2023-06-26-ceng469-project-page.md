@@ -20,11 +20,7 @@ I will be using a Temporal TMO of my design to simulate the HVS.
 
 ### Reinhard's Global Operator
 
-Reinhard's Global Operator uses a log-average luminance as the approximation of a scene, called $\overline{L}_w$ or average white. This value is computed by 
-```math
-\overline{L}_w = \frac{1}{N} \exp{\left(\sum_{x,y}\log{(\epsilon + L_w (x,y)} \right)}
-```
-where $L_w (x,y)$ is the world lumanace of the pixel $(x, y)$, generally calculated as $\text{Red}(x,y) \times 0.2126 + \text{Green}(x,y) \times 0.7152 + \text{Blue}(x,y) \times 0.0722$ and $\epsilon$ is a very small value. By using this formula we can calculate the scales luminance of $(x,y)$ as $L(x,y)$ which is equal to $$L(x,y)=\frac{\alpha}{\overline{L}_w}L_w(x,y).$$ $\alpha$ is what the log-average is mapped to, which is usually $\alpha = 0.18$. Finally we compress the scaled luminance to LDR values using the formula $$L_d(x,y)=\frac{L(x,y)}{1 + L(x,y)}.$$
+Reinhard's Global Operator uses a log-average luminance as the approximation of a scene, called $\overline{L}_w$ or average white. This value is computed by \[\overline{L}_w = \frac{1}{N} \exp{\left(\sum_{x,y}\log{(\epsilon + L_w (x,y)} \right)}\] where $L_w (x,y)$ is the world lumanace of the pixel $(x, y)$, generally calculated as $\text{Red}(x,y) \times 0.2126 + \text{Green}(x,y) \times 0.7152 + \text{Blue}(x,y) \times 0.0722$ and $\epsilon$ is a very small value. By using this formula we can calculate the scales luminance of $(x,y)$ as $L(x,y)$ which is equal to $$L(x,y)=\frac{\alpha}{\overline{L}_w}L_w(x,y).$$ $\alpha$ is what the log-average is mapped to, which is usually $\alpha = 0.18$. Finally we compress the scaled luminance to LDR values using the formula $$L_d(x,y)=\frac{L(x,y)}{1 + L(x,y)}.$$
 
 ## My Temporal TMO
 
