@@ -108,6 +108,8 @@ For all cases, I worked with 20 different values for the weight $$w$$ used in $$
 
 While calculating convergence speed (the frame where the render converges to its final value), I took the Manhattan Distance between the last frame of the case with $$w=1.000$$ as for that value of $$w$$, the frame would converge to its final form instantly. In addition, I printed the time frames where the Manhattan Distance is 600*600 (size of the frames), 600, 60, and 0 as a table. The table has the same structure as the videos, like:
 
+<ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul>
+
 | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> |
 | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> |
 | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> | <ul><li>600*600</li><li>600</li><li>60</li><li>0</li></ul> |
