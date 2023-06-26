@@ -34,7 +34,7 @@ $$L_d(x,y)=\frac{L(x,y)}{1 + L(x,y)}.$$
 
 ## My Temporal TMO
 
-I tried 4 formulas for my project, 2 of which used aritmatic weighted average and 2 of which used geometric weighted average. If $$\overline{L}_w(i)$$ is the avarage white of the frame $$i$$ and $$\dot{L}_w(i)$$ is the calculated average white of frame $$i$$, that is actually used in rendering the frame, $$w$$ is the weight of the current frame, $$\text{av}_x(w, \underline{L}_w, \dot{L}_w)$$ is averaging function of type $$x$$ (where $$\underline{L}_w$$ has the weight $$w$$ and $$\dot{L}_w$$ has the weight $$1-w$$), and finally $$\text{Rend}(X)$$ calculated $$L(x,y)$$ as 
+I tried 4 formulas for my project, 2 of which used aritmatic weighted average and 2 of which used geometric weighted average. If $$\overline{L}_w(i)$$ is the avarage white of the frame $$i$$ and $$\dot{L}_w(i)$$ is the calculated average white of frame $$i$$, that is actually used in rendering the frame, $$w$$ is the weight of the current frame, $$\text{av}_x(w, \overline{L}_w, \dot{L}_w)$$ is averaging function of type $$x$$ (where $$\overline{L}_w$$ has the weight $$w$$ and $$\dot{L}_w$$ has the weight $$1-w$$), and finally $$\text{Rend}(X)$$ calculated $$L(x,y)$$ as 
 
 $$L(x,y) = X \times L_w(x, y),$$
 
