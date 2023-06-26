@@ -126,10 +126,10 @@ While calculating convergence speed (the frame where the render converges to its
 
 <iframe width="1000" height="800" src="https://www.youtube.com/embed/mDigGMG7B7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&976\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&502\\&1108\\&1184\\&1207\end{align*}$$ | $$\begin{align*}&265\\&566\\&602\\&620\end{align*}$$ | $$\begin{align*}&186\\&384\\&406\\&416\end{align*}$$ | $$\begin{align*}&147\\&297\\&315\\&324\end{align*}$$ |
+| $$\begin{align*}&123\\&242\\&257\\&263\end{align*}$$ | $$\begin{align*}&107\\&206\\&218\\&223\end{align*}$$ | $$\begin{align*}&96\\&180\\&190\\&195\end{align*}$$ | $$\begin{align*}&87\\&160\\&169\\&173\end{align*}$$ | $$\begin{align*}&81\\&146\\&154\\&158\end{align*}$$ |
+| $$\begin{align*}&75\\&134\\&141\\&144\end{align*}$$ | $$\begin{align*}&52\\&79\\&83\\&84\end{align*}$$ | $$\begin{align*}&44\\&61\\&63\\&64\end{align*}$$ | $$\begin{align*}&40\\&52\\&53\\&54\end{align*}$$ | $$\begin{align*}&37\\&46\\&47\\&48\end{align*}$$ |
+| $$\begin{align*}&36\\&42\\&43\\&44\end{align*}$$ | $$\begin{align*}&34\\&40\\&40\\&40\end{align*}$$ | $$\begin{align*}&33\\&37\\&38\\&38\end{align*}$$ | $$\begin{align*}&33\\&35\\&36\\&36\end{align*}$$ | $$\begin{align*}&31\\&31\\&31\\&31\end{align*}$$ |
 
 #### Case 3 Formula 1
 
@@ -183,7 +183,7 @@ Your browser does not support the video tag.
 </video>
 
 | $$\begin{align*}&1731\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&956\\&1586\\&1686\\&1799\end{align*}$$ | $$\begin{align*}&533\\&834\\&869\\&885\end{align*}$$ | $$\begin{align*}&383\\&585\\&611\\&624\end{align*}$$ | $$\begin{align*}&305\\&455\\&473\\&481\end{align*}$$ |
-| $$\begin{align*}&257\\&377\\&392\\&400\end{align*}$$ | $$\begin{align*}&225\\&324\\&335\\&340\end{align*}$$ | $$\begin{align*}&201\\&286\\&296\\&301\end{align*}$$ | $$\begin{align*}&184\\&257\\&267\\&271\end{align*}$$ | $$\begin{align*}&170\\&235\\&243\\&246\end{align*}&& |
+| $$\begin{align*}&257\\&377\\&392\\&400\end{align*}$$ | $$\begin{align*}&225\\&324\\&335\\&340\end{align*}$$ | $$\begin{align*}&201\\&286\\&296\\&301\end{align*}$$ | $$\begin{align*}&184\\&257\\&267\\&271\end{align*}$$ | $$\begin{align*}&170\\&235\\&243\\&246\end{align*}$$ |
 | $$\begin{align*}&158\\&216\\&223\\&226\end{align*}$$ | $$\begin{align*}&107\\&134\\&138\\&139\end{align*}$$ | $$\begin{align*}&89\\&107\\&109\\&110\end{align*}$$ | $$\begin{align*}&81\\&93\\&94\\&95\end{align*}$$ | $$\begin{align*}&75\\&84\\&85\\&86\end{align*}$$ |
 | $$\begin{align*}&72\\&78\\&79\\&80\end{align*}$$ | $$\begin{align*}&69\\&74\\&75\\&75\end{align*}$$ | $$\begin{align*}&67\\&71\\&71\\&71\end{align*}$$ | $$\begin{align*}&65\\&68\\&68\\&68\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
@@ -205,10 +205,10 @@ Your browser does not support the video tag.
 
 <iframe width="1000" height="800" src="https://www.youtube.com/embed/WKaipqUgVxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&1321\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&674\\&1212\\&1247\\&1799\end{align*}$$ | $$\begin{align*}&350\\&616\\&644\\&648\end{align*}$$ | $$\begin{align*}&243\\&434\\&467\\&1799\end{align*}$$ | $$\begin{align*}&189\\&336\\&1799\\&1799\end{align*}$$ |
+| $$\begin{align*}&157\\&271\\&292\\&296\end{align*}$$ | $$\begin{align*}&135\\&228\\&242\\&246\end{align*}$$ | $$\begin{align*}&120\\&198\\&209\\&211\end{align*}$$ | $$\begin{align*}&108\\&176\\&184\\&186\end{align*}$$ | $$\begin{align*}&99\\&162\\&174\\&178\end{align*}$$ |
+| $$\begin{align*}&92\\&147\\&157\\&159\end{align*}$$ | $$\begin{align*}&59\\&85\\&89\\&90\end{align*}$$ | $$\begin{align*}&49\\&65\\&67\\&68\end{align*}$$ | $$\begin{align*}&43\\&54\\&56\\&56\end{align*}$$ | $$\begin{align*}&40\\&48\\&49\\&50\end{align*}$$ |
+| $$\begin{align*}&38\\&44\\&45\\&45\end{align*}$$ | $$\begin{align*}&36\\&41\\&41\\&42\end{align*}$$ | $$\begin{align*}&35\\&38\\&39\\&39\end{align*}$$ | $$\begin{align*}&33\\&36\\&36\\&36\end{align*}$$ | $$\begin{align*}&31\\&31\\&31\\&31\end{align*}$$ |
 
 #### Case 2 Formula 3
 
@@ -246,10 +246,10 @@ Your browser does not support the video tag.
 
 <iframe width="1000" height="800" src="https://www.youtube.com/embed/4QP8NNYn7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&1320\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&674\\&1217\\&1284\\&1294\end{align*}$$ | $$\begin{align*}&350\\&622\\&651\\&656\end{align*}$$ | $$\begin{align*}&243\\&430\\&458\\&467\end{align*}$$ | $$\begin{align*}&189\\&332\\&359\\&369\end{align*}$$ |
+| $$\begin{align*}&157\\&269\\&287\\&292\end{align*}$$ | $$\begin{align*}&135\\&227\\&241\\&245\end{align*}$$ | $$\begin{align*}&120\\&199\\&211\\&214\end{align*}$$ | $$\begin{align*}&108\\&177\\&188\\&190\end{align*}$$ | $$\begin{align*}&99\\&161\\&171\\&174\end{align*}$$ |
+| $$\begin{align*}&92\\&147\\&155\\&158\end{align*}$$ | $$\begin{align*}&59\\&85\\&89\\&90\end{align*}$$ | $$\begin{align*}&49\\&65\\&67\\&68\end{align*}$$ | $$\begin{align*}&43\\&54\\&56\\&57\end{align*}$$ | $$\begin{align*}&40\\&48\\&49\\&50\end{align*}$$ |
+| $$\begin{align*}&38\\&44\\&45\\&45\end{align*}$$ | $$\begin{align*}&36\\&41\\&41\\&42\end{align*}$$ | $$\begin{align*}&35\\&38\\&39\\&39\end{align*}$$ | $$\begin{align*}&33\\&36\\&36\\&36\end{align*}$$ | $$\begin{align*}&31\\&31\\&31\\&31\end{align*}$$ |
 
 #### Case 2 Formula 4
 
