@@ -78,6 +78,9 @@ $$\begin{align*}
 
 ## Implementation
 
+I implemented my project using C++ and OpenGL, with the help of stb_image, GLM, GLEW, GLFW, and FAGL (my own library) libraries. Like most OpenGL applications, it can be divided into 2 parts, setup and main loop. In main loop,
+
+
 ### Shadow Shaders
 
 #### Vertex Shader
