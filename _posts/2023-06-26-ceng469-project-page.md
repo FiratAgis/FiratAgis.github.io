@@ -133,7 +133,10 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 3 Formula 1
 
-<iframe src="https://drive.google.com/file/d/1YxCeWQUTlOwWKLc25QV2QlCLMOQrHHLH/preview" width="1000" height="800" allow="autoplay"></iframe>
+<video width="1000" height="800" controls>
+  <source src="{{site.url}}/videos/case_3_form_1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 | $$\begin{align*}&564\\&1690\\&1777\\&1799\end{align*}$$ | $$\begin{align*}&387\\&993\\&1069\\&1092\end{align*}$$ | $$\begin{align*}&254\\&554\\&590\\&608\end{align*}$$ | $$\begin{align*}&198\\&369\\&419\\&428\end{align*}$$ | $$\begin{align*}&168\\&318\\&336\\&345\end{align*}$$ |
 | $$\begin{align*}&148\\&267\\&282\\&289\end{align*}$$ | $$\begin{align*}&134\\&233\\&245\\&250\end{align*}$$ | $$\begin{align*}&124\\&208\\&218\\&223\end{align*}$$ | $$\begin{align*}&116\\&289\\&198\\&202\end{align*}$$ | $$\begin{align*}&110\\&175\\&183\\&187\end{align*}$$ |
@@ -174,7 +177,10 @@ Your browser does not support the video tag.
 
 #### Case 3 Formula 2
 
-<iframe src="https://drive.google.com/file/d/12mIWfiYW0-t4-W3jmgF4fnNo6CW5YNvM/preview" width="1000" height="800" allow="autoplay"></iframe>
+<video width="1000" height="800" controls>
+  <source src="{{site.url}}/videos/case_3_form_2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 | $$\begin{align*}&1731\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&956\\&1586\\&1686\\&1799\end{align*}$$ | $$\begin{align*}&533\\&834\\&869\\&885\end{align*}$$ | $$\begin{align*}&383\\&585\\&611\\&624\end{align*}$$ | $$\begin{align*}&305\\&455\\&473\\&481\end{align*}$$ |
 | $$\begin{align*}&257\\&377\\&392\\&400\end{align*}$$ | $$\begin{align*}&225\\&324\\&335\\&340\end{align*}$$ | $$\begin{align*}&201\\&286\\&296\\&301\end{align*}$$ | $$\begin{align*}&184\\&257\\&267\\&271\end{align*}$$ | $$\begin{align*}&170\\&235\\&243\\&246\end{align*}$$ |
