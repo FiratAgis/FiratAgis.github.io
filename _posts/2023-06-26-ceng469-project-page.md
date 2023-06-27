@@ -133,6 +133,8 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 3 Formula 1
 
+<iframe src="https://drive.google.com/file/d/1YxCeWQUTlOwWKLc25QV2QlCLMOQrHHLH/preview" width="1000" height="800" allow="autoplay"></iframe>
+
 | $$\begin{align*}&564\\&1690\\&1777\\&1799\end{align*}$$ | $$\begin{align*}&387\\&993\\&1069\\&1092\end{align*}$$ | $$\begin{align*}&254\\&554\\&590\\&608\end{align*}$$ | $$\begin{align*}&198\\&369\\&419\\&428\end{align*}$$ | $$\begin{align*}&168\\&318\\&336\\&345\end{align*}$$ |
 | $$\begin{align*}&148\\&267\\&282\\&289\end{align*}$$ | $$\begin{align*}&134\\&233\\&245\\&250\end{align*}$$ | $$\begin{align*}&124\\&208\\&218\\&223\end{align*}$$ | $$\begin{align*}&116\\&289\\&198\\&202\end{align*}$$ | $$\begin{align*}&110\\&175\\&183\\&187\end{align*}$$ |
 | $$\begin{align*}&105\\&163\\&171\\&174\end{align*}$$ | $$\begin{align*}&82\\&109\\&113\\&114\end{align*}$$ | $$\begin{align*}&74\\&91\\&93\\&94\end{align*}$$ | $$\begin{align*}&70\\&82\\&83\\&84\end{align*}$$ | $$\begin{align*}&67\\&76\\&77\\&78\end{align*}$$ |
