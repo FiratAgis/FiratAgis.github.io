@@ -62,3 +62,9 @@ $$\begin{align*}
 | $$\begin{align*}&72\\&78\\&79\\&79\end{align*}$$ | $$\begin{align*}&69\\&74\\&75\\&75\end{align*}$$ | $$\begin{align*}&67\\&70\\&71\\&71\end{align*}$$ | $$\begin{align*}&65\\&67\\&68\\&68\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 1
+
+While looking at the results of Formula 1 in isolation (see <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a> for the big picture), two major phenomena is significant in my opinion. 
+
+Firstly, the convergence speed is asymetric. Meaning it converges slowly when getting used to increases in light, but rapidly in the case of decreasing light. I suspect this is the result of arithmetic averaging while using logarithm based values. If this formula is choosen for future implementation, I suggest the usage different weight for light increases and decreases to compansate for this, but especially in the case of dynamically choosen weights, this property of formula 1 makes it undesirable.
+
+Secondly, some what because of the first phenomena, flashes given in the scenerios 3 and 4 look unideal. In scenerio 3, it barely gets used to increase in the light level before rapidly returning to its original state. In scenerio 4, the avarage white  plunges very quickly before the light level returns to its initial state, making the scene very similar to scenerio 1, only with a slight delay. But also, the formula fails to simulate how a sudden increase in light creates an afterimage, making everything to look bright for a brief amount of time, even after the light level returns to normal. But this formula (and this method in general) makse no differentiation wbetween a sudden flash that bunrs the observers eyes and a well-lit environment that the observer is already used to.
