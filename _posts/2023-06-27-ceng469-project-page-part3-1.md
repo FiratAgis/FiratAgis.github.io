@@ -63,7 +63,7 @@ $$\begin{align*}
 
 #### Remarks on Formula 1
 
-While looking at the results of Formula 1 in isolation (see <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a> for the big picture), two major phenomena is significant in my opinion. 
+While looking at the results of Formula 1 in isolation (see <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a> for the big picture), two major phenomenas are significant in my opinion. 
 
 Firstly, the convergence speed is asymetric. Meaning it converges slowly when getting used to increases in light, but rapidly in the case of decreasing light. I suspect this is the result of arithmetic averaging while using logarithm based values. If this formula is choosen for future implementation, I suggest the usage different weight for light increases and decreases to compansate for this, but especially in the case of dynamically choosen weights, this property of formula 1 makes it undesirable.
 
