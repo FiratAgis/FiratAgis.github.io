@@ -11,7 +11,7 @@ My project aims to model how the Human Visual System (HVS) adjusts to cahnges in
    2. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-2">Part 3.2: Formula 2</a>
    3. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-3">Part 3.3: Formula 3</a>
    4. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-4">Part 3.4: Formula 4</a>
-   5. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a>
+   5. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-5">Part 3.5: Comparing Results</a>
 4. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part4">Final Remarks</a>
 
 ## Results
@@ -63,7 +63,7 @@ $$\begin{align*}
 
 #### Remarks on Formula 2
 
-While looking at the results of Formula 2 in isolation (see <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a> for the big picture), two major phenomenas are significant in my opinion. Even if I am looking Formula 2 in isolotion, I won't be repeating any point I made during my discussion of Formula 1, instead I will reference them
+While looking at the results of Formula 2 in isolation (see <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-5">Part 3.5: Comparing Results</a> for the big picture), two major phenomenas are significant in my opinion. Even if I am looking Formula 2 in isolotion, I won't be repeating any point I made during my discussion of Formula 1, instead I will reference them
 
 Firstly, the effects of light increaases and decreases are asymetric (just like formula 1), but in this case it takes more time to get use to decreases in the light level instead of increases in the light level. While this asymetry is generally undesirable as I discussed in the remarks of Formula 1, it has some uses. While scenerio 1 becomes very in efective, this simulates how everything becomes hard to see after a flash of light during the scenerio 3 very well.
 

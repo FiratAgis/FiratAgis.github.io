@@ -11,7 +11,7 @@ My project aims to model how the Human Visual System (HVS) adjusts to cahnges in
    2. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-2">Part 3.2: Formula 2</a>
    3. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-3">Part 3.3: Formula 3</a>
    4. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-4">Part 3.4: Formula 4</a>
-   5. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a>
+   5. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-5">Part 3.5: Comparing Results</a>
 4. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part4">Final Remarks</a>
 
 ## Backgroud
