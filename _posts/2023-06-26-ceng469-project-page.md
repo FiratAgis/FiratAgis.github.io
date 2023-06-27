@@ -81,6 +81,7 @@ $$\begin{align*}
 ### Shadow Shaders
 
 #### Vertex Shader
+
 ```c++
 #version 460 core
 
@@ -94,7 +95,9 @@ void main()
     gl_Position = modelingMatrix * vec4(inVertex, 1.0);
 }
 ```
+
 #### Geometry Shader
+
 ```c++
 #version 460 core
 layout (triangles) in;
@@ -119,7 +122,9 @@ void main()
     }
 } 
 ```
+
 #### Fragment Shader
+
 ```c++
 #version 460 core
 in vec4 fragWorldPos;
