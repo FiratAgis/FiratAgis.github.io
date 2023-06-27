@@ -142,18 +142,18 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 4 Formula 1
 
-<iframe src="https://drive.google.com/file/d/1VhuaCmGalR4tbXZ4gzXLHLZW61LYEwNe/preview" width="640" height="512" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1VhuaCmGalR4tbXZ4gzXLHLZW61LYEwNe/preview" width="1000" height="800" allow="autoplay"></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&1730\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&955\\&1536\\&1637\\&1672\end{align*}$$ | $$\begin{align*}&533\\&822\\&873\\&886\end{align*}$$ | $$\begin{align*}&383\\&572\\&602\\&609\end{align*}$$ | $$\begin{align*}&305\\&445\\&466\\&471\end{align*}$$ |
+| $$\begin{align*}&257\\&369\\&387\\&391\end{align*}$$ | $$\begin{align*}&225\\&318\\&333\\&336\end{align*}$$ | $$\begin{align*}&201\\&281\\&294\\&297\end{align*}$$ | $$\begin{align*}&183\\&252\\&263\\&266\end{align*}$$ | $$\begin{align*}&169\\&230\\&239\\&242\end{align*}$$ |
+| $$\begin{align*}&158\\&213\\&221\\&223\end{align*}$$ | $$\begin{align*}&107\\&133\\&137\\&138\end{align*}$$ | $$\begin{align*}&89\\&106\\&108\\&109\end{align*}$$ | $$\begin{align*}&81\\&92\\&94\\&94\end{align*}$$ | $$\begin{align*}&75\\&84\\&85\\&85\end{align*}$$ |
+| $$\begin{align*}&72\\&78\\&79\\&79\end{align*}$$ | $$\begin{align*}&69\\&74\\&75\\&75\end{align*}$$ | $$\begin{align*}&67\\&70\\&71\\&71\end{align*}$$ | $$\begin{align*}&65\\&67\\&68\\&68\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 1
 
 #### Case 1 Formula 2
 
-<iframe width="640" height="512" src="https://www.youtube.com/embed/ySNwRwLw_es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1000" height="800" src="https://www.youtube.com/embed/ySNwRwLw_es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 | $$\begin{align*}&975\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&502\\&1070\\&1154\\&1179\end{align*}$$ | $$\begin{align*}&265\\&548\\&590\\&599\end{align*}$$ | $$\begin{align*}&186\\&374\\&402\\&408\end{align*}$$ | $$\begin{align*}&146\\&288\\&311\\&316\end{align*}$$ |
 | $$\begin{align*}&123\\&235\\&253\\&257\end{align*}$$ | $$\begin{align*}&107\\&200\\&215\\&218\end{align*}$$ | $$\begin{align*}&96\\&175\\&187\\&190\end{align*}$$ | $$\begin{align*}&87\\&156\\&167\\&169\end{align*}$$ | $$\begin{align*}&81\\&142\\&152\\&154\end{align*}$$ |
@@ -180,12 +180,12 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 4 Formula 2
 
-<iframe src="https://drive.google.com/file/d/17lsx35wzyYCIqH468Y02xlSjIkXK6Uae/preview" width="640" height="512" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/17lsx35wzyYCIqH468Y02xlSjIkXK6Uae/preview" width="1000" height="800" allow="autoplay"></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&612\\&1705\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&398\\&942\\&1002\\&1096\end{align*}$$ | $$\begin{align*}&256\\&532\\&567\\&634\end{align*}$$ | $$\begin{align*}&199\\&381\\&403\\&440\end{align*}$$ | $$\begin{align*}&168\\&306\\&324\\&363\end{align*}$$ |
+| $$\begin{align*}&148\\&257\\&271\\&298\end{align*}$$ | $$\begin{align*}&134\\&225\\&236\\&258\end{align*}$$ | $$\begin{align*}&124\\&201\\&211\\&229\end{align*}$$ | $$\begin{align*}&116\\&183\\&192\\&207\end{align*}$$ | $$\begin{align*}&110\\&170\\&177\\&193\end{align*}$$ |
+| $$\begin{align*}&105\\&158\\&165\\&178\end{align*}$$ | $$\begin{align*}&82\\&107\\&110\\&116\end{align*}$$ | $$\begin{align*}&74\\&89\\&91\\&95\end{align*}$$ | $$\begin{align*}&70\\&81\\&82\\&85\end{align*}$$ | $$\begin{align*}&67\\&75\\&76\\&78\end{align*}$$ |
+| $$\begin{align*}&66\\&72\\&73\\&74\end{align*}$$ | $$\begin{align*}&64\\&69\\&70\\&71\end{align*}$$ | $$\begin{align*}&63\\&67\\&67\\&68\end{align*}$$ | $$\begin{align*}&63\\&65\\&65\\&66\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 2
 
@@ -218,12 +218,12 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 4 Formula 3
 
-<iframe src="https://drive.google.com/file/d/18Za0YIuRGz1LenW_tWE4RBDWxyB4Dt5X/preview" width="640" height="512" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/18Za0YIuRGz1LenW_tWE4RBDWxyB4Dt5X/preview" width="1000" height="800" allow="autoplay"></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&957\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&569\\&1108\\&1143\\&1799\end{align*}$$ | $$\begin{align*}&341\\&606\\&634\\&658\end{align*}$$ | $$\begin{align*}&256\\&431\\&448\\&470\end{align*}$$ | $$\begin{align*}&210\\&347\\&363\\&1799\end{align*}$$ |
+| $$\begin{align*}&182\\&289\\&302\\&321\end{align*}$$ | $$\begin{align*}&162\\&253\\&266\\&1799\end{align*}$$ | $$\begin{align*}&148\\&226\\&237\\&1799\end{align*}$$ | $$\begin{align*}&137\\&205\\&213\\&230\end{align*}$$ | $$\begin{align*}&128\\&189\\&198\\&1799\end{align*}$$ |
+| $$\begin{align*}&121\\&175\\&183\\&198\end{align*}$$ | $$\begin{align*}&89\\&114\\&118\\&123\end{align*}$$ | $$\begin{align*}&79\\&94\\&96\\&100\end{align*}$$ | $$\begin{align*}&73\\&84\\&85\\&88\end{align*}$$ | $$\begin{align*}&70\\&78\\&79\\&81\end{align*}$$ |
+| $$\begin{align*}&68\\&74\\&74\\&76\end{align*}$$ | $$\begin{align*}&66\\&71\\&71\\&72\end{align*}$$ | $$\begin{align*}&65\\&68\\&68\\&69\end{align*}$$ | $$\begin{align*}&63\\&66\\&66\\&67\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 3
 
@@ -257,12 +257,12 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 4 Formula 4
 
-<iframe src="https://drive.google.com/file/d/1feL0rFlWs3eQRyDO0LVLWCjqXS2i0fVL/preview" width="640" height="512" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1feL0rFlWs3eQRyDO0LVLWCjqXS2i0fVL/preview" width="1000" height="800" allow="autoplay"></iframe>
 
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
-| $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
+| $$\begin{align*}&956\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&569\\&1113\\&1180\\&1799\end{align*}$$ | $$\begin{align*}&341\\&612\\&642\\&687\end{align*}$$ | $$\begin{align*}&256\\&435\\&455\\&486\end{align*}$$ | $$\begin{align*}&210\\&348\\&367\\&1799\end{align*}$$ |
+| $$\begin{align*}&182\\&291\\&305\\&334\end{align*}$$ | $$\begin{align*}&162\\&252\\&264\\&285\end{align*}$$ | $$\begin{align*}&148\\&225\\&234\\&251\end{align*}$$ | $$\begin{align*}&137\\&204\\&212\\&225\end{align*}$$ | $$\begin{align*}&128\\&188\\&196\\&213\end{align*}$$ |
+| $$\begin{align*}&121\\&175\\&181\\&195\end{align*}$$ | $$\begin{align*}&89\\&114\\&117\\&123\end{align*}$$ | $$\begin{align*}&79\\&94\\&96\\&100\end{align*}$$ | $$\begin{align*}&73\\&84\\&85\\&88\end{align*}$$ | $$\begin{align*}&70\\&78\\&79\\&81\end{align*}$$ |
+| $$\begin{align*}&68\\&74\\&74\\&76\end{align*}$$ | $$\begin{align*}&66\\&71\\&71\\&72\end{align*}$$ | $$\begin{align*}&65\\&68\\&68\\&69\end{align*}$$ | $$\begin{align*}&63\\&66\\&66\\&67\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 4
 
