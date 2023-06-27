@@ -177,10 +177,7 @@ Your browser does not support the video tag.
 
 #### Case 3 Formula 2
 
-<video width="1000" height="800" controls>
-  <source src="{{site.url}}/videos/case_3_form_2.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/12mIWfiYW0-t4-W3jmgF4fnNo6CW5YNvM/preview" width="1000" height="800" allow="autoplay"></iframe>
 
 | $$\begin{align*}&1731\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&956\\&1586\\&1686\\&1799\end{align*}$$ | $$\begin{align*}&533\\&834\\&869\\&885\end{align*}$$ | $$\begin{align*}&383\\&585\\&611\\&624\end{align*}$$ | $$\begin{align*}&305\\&455\\&473\\&481\end{align*}$$ |
 | $$\begin{align*}&257\\&377\\&392\\&400\end{align*}$$ | $$\begin{align*}&225\\&324\\&335\\&340\end{align*}$$ | $$\begin{align*}&201\\&286\\&296\\&301\end{align*}$$ | $$\begin{align*}&184\\&257\\&267\\&271\end{align*}$$ | $$\begin{align*}&170\\&235\\&243\\&246\end{align*}$$ |
