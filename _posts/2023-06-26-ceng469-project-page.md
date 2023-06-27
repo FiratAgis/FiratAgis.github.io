@@ -133,10 +133,7 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 3 Formula 1
 
-<video width="1000" height="800" controls>
-  <source src="{{site.url}}/videos/case_3_form_1.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/1YxCeWQUTlOwWKLc25QV2QlCLMOQrHHLH/preview" width="1000" height="800" allow="autoplay"></iframe>
 
 | $$\begin{align*}&564\\&1690\\&1777\\&1799\end{align*}$$ | $$\begin{align*}&387\\&993\\&1069\\&1092\end{align*}$$ | $$\begin{align*}&254\\&554\\&590\\&608\end{align*}$$ | $$\begin{align*}&198\\&369\\&419\\&428\end{align*}$$ | $$\begin{align*}&168\\&318\\&336\\&345\end{align*}$$ |
 | $$\begin{align*}&148\\&267\\&282\\&289\end{align*}$$ | $$\begin{align*}&134\\&233\\&245\\&250\end{align*}$$ | $$\begin{align*}&124\\&208\\&218\\&223\end{align*}$$ | $$\begin{align*}&116\\&289\\&198\\&202\end{align*}$$ | $$\begin{align*}&110\\&175\\&183\\&187\end{align*}$$ |
