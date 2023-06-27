@@ -62,3 +62,5 @@ $$\begin{align*}
 | $$\begin{align*}&68\\&74\\&74\\&76\end{align*}$$ | $$\begin{align*}&66\\&71\\&71\\&72\end{align*}$$ | $$\begin{align*}&65\\&68\\&68\\&69\end{align*}$$ | $$\begin{align*}&63\\&66\\&66\\&67\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 3
+
+The Formula 3 is significant due to it lacking asymery present in Formula 1 and 2, conforming the fact that the asymetry is caused by aritmatic averaging. This makes this formula my desirable even in the cases where the asymetry is desired, as it allows the dynamic selection of weights to be more informed because their effects are related. But in the absence of dynamic selection of weights, this results in an underwhelming response to light flashes, as the time it takes to get recover from a flash is identical to the duration of a flash. But in other cases, in my opinion, this symetry is preferable, even in the absence of dynamic selection.

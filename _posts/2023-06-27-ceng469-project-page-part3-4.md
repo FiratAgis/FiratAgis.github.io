@@ -63,3 +63,5 @@ $$\begin{align*}
 | $$\begin{align*}&68\\&74\\&74\\&76\end{align*}$$ | $$\begin{align*}&66\\&71\\&71\\&72\end{align*}$$ | $$\begin{align*}&65\\&68\\&68\\&69\end{align*}$$ | $$\begin{align*}&63\\&66\\&66\\&67\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 4
+
+We know that the difference between Formula 1 and 2 (which is the same difference between Formula 3 and 4) reversed the response between getting used to increases in light and decreases in light. But because Formula 3 is symetric in this regard, as expected, there is no majer difference between it and Formula 4.
