@@ -81,7 +81,7 @@ $$\begin{align*}
 ### Shadow Shaders
 
 #### Vertex Shader
-```glsl
+```c++
 #version 460 core
 
 layout (location = 0) in vec3 inVertex;
@@ -95,7 +95,7 @@ void main()
 }
 ```
 #### Geometry Shader
-```glsl
+```c++
 #version 460 core
 layout (triangles) in;
 layout (triangle_strip, max_vertices=18) out;
@@ -120,7 +120,7 @@ void main()
 } 
 ```
 #### Fragment Shader
-```glsl
+```c++
 #version 460 core
 in vec4 fragWorldPos;
 
