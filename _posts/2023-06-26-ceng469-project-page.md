@@ -142,10 +142,7 @@ While calculating convergence speed (the frame where the render converges to its
 
 #### Case 4 Formula 1
 
-<video width="1000" height="800" controls>
-  <source src="{{site.url}}/videos/case_4_form_1.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/1VhuaCmGalR4tbXZ4gzXLHLZW61LYEwNe/preview" width="640" height="512" allow="autoplay"></iframe>
 
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
@@ -156,7 +153,7 @@ Your browser does not support the video tag.
 
 #### Case 1 Formula 2
 
-<iframe width="1000" height="800" src="https://www.youtube.com/embed/ySNwRwLw_es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="640" height="512" src="https://www.youtube.com/embed/ySNwRwLw_es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 | $$\begin{align*}&975\\&1799\\&1799\\&1799\end{align*}$$ | $$\begin{align*}&502\\&1070\\&1154\\&1179\end{align*}$$ | $$\begin{align*}&265\\&548\\&590\\&599\end{align*}$$ | $$\begin{align*}&186\\&374\\&402\\&408\end{align*}$$ | $$\begin{align*}&146\\&288\\&311\\&316\end{align*}$$ |
 | $$\begin{align*}&123\\&235\\&253\\&257\end{align*}$$ | $$\begin{align*}&107\\&200\\&215\\&218\end{align*}$$ | $$\begin{align*}&96\\&175\\&187\\&190\end{align*}$$ | $$\begin{align*}&87\\&156\\&167\\&169\end{align*}$$ | $$\begin{align*}&81\\&142\\&152\\&154\end{align*}$$ |
@@ -183,10 +180,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 2
 
-<video width="1000" height="800" controls>
-  <source src="{{site.url}}/videos/case_4_form_2.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/17lsx35wzyYCIqH468Y02xlSjIkXK6Uae/preview" width="640" height="512" allow="autoplay"></iframe>
 
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
@@ -224,10 +218,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 3
 
-<video width="1000" height="800" controls>
-  <source src="{{site.url}}/videos/case_4_form_3.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/18Za0YIuRGz1LenW_tWE4RBDWxyB4Dt5X/preview" width="640" height="512" allow="autoplay"></iframe>
 
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
@@ -266,10 +257,7 @@ Your browser does not support the video tag.
 
 #### Case 4 Formula 4
 
-<video width="1000" height="800" controls>
-  <source src="{{site.url}}/videos/case_4_form_4.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe src="https://drive.google.com/file/d/1feL0rFlWs3eQRyDO0LVLWCjqXS2i0fVL/preview" width="640" height="512" allow="autoplay"></iframe>
 
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
 | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ | $$\begin{align*}&600*600\\&600\\&60\\&0\end{align*}$$ |
