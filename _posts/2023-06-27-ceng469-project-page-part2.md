@@ -16,8 +16,118 @@ My project aims to model how the Human Visual System (HVS) adjusts to cahnges in
 
 ## Implementation
 
-I implemented my project using C++ and OpenGL, with the help of stb_image, GLM, GLEW, GLFW, and FAGL (my own library) libraries. Like most OpenGL applications, it can be divided into 2 parts, setup and main loop. In main loop,
+I implemented my project using C++ and OpenGL, with the help of stb_image, GLM, GLEW, GLFW, and FAGL (my own library) libraries. 
 
+Like most OpenGL applications, it can be divided into 2 parts, setup and main loop. In the setup part, I initiliza the window, shaders, models, vertex array objects, frame buffers and keyboard controls using FAGL. Afterwards, I modify any of the already initilized variables according to arguments given, if any. Then I implement an input manager to press the same keys at the same frames during testing (which can be turned off by default). Lastly, I create a Time Manager, also from FAGL, to limit frames per second to 30. I limited frame per secondsbecuase the weighted average method I use is a framewise operation, meaning it different frame rates would create different visual effects. I choosed 30 frames per second as to make frame operations more visible while still keeping fluid movement. Also 30 frame per second is a very easy target to hit, meaining performance dips shouldn't be able to affect the consistency of the results.
+
+In the main loop, first I draw a shadow map for each point light, implemented as such:
+
+```c++
+for (unsigned int i = 0; i < LIGHT_AMOUNT; i++) {
+	float near_plane = 1.0f;
+	float far_plane = 100.0f;
+	glm::mat4 shadowProj = glm::perspective(glm::radians(90.0f), (float)w / (float)h, near_plane, far_plane);
+	std::vector<glm::mat4> shadowTransforms;
+	shadowTransforms.push_back(shadowProj * glm::lookAt(lights[i].pos, lights[i].pos + glm::vec3(1.0f, 0.0f, 0.0f), glm::vec3(0.0f, -1.0f, 0.0f)));
+	shadowTransforms.push_back(shadowProj * glm::lookAt(lights[i].pos, lights[i].pos + glm::vec3(-1.0f, 0.0f, 0.0f), glm::vec3(0.0f, -1.0f, 0.0f)));
+	shadowTransforms.push_back(shadowProj * glm::lookAt(lights[i].pos, lights[i].pos + glm::vec3(0.0f, 1.0f, 0.0f), glm::vec3(0.0f, 0.0f, 1.0f)));
+	shadowTransforms.push_back(shadowProj * glm::lookAt(lights[i].pos, lights[i].pos + glm::vec3(0.0f, -1.0f, 0.0f), glm::vec3(0.0f, 0.0f, -1.0f)));
+	shadowTransforms.push_back(shadowProj * glm::lookAt(lights[i].pos, lights[i].pos + glm::vec3(0.0f, 0.0f, 1.0f), glm::vec3(0.0f, -1.0f, 0.0f)));
+	shadowTransforms.push_back(shadowProj * glm::lookAt(lights[i].pos, lights[i].pos + glm::vec3(0.0f, 0.0f, -1.0f), glm::vec3(0.0f, -1.0f, 0.0f)));
+
+	glViewport(0, 0, w, h);
+	faglBindFramebuffer(shadowFBO[i]);
+	glClear(GL_DEPTH_BUFFER_BIT);
+		
+	for (unsigned int j = 0; j < MODEL_AMOUNT; j++) {
+		models[j].DrawShadow(glm::value_ptr(modelMatrix), value_ptr(lights[i].pos), shadowTransforms, far_plane);
+	}
+	faglUnbindFramebuffer();
+}
+```
+
+DrawShadow function uses the shadow shaders given at the end of this part. After this, I start the regular scene rendering. For regular rendering, I use the Render Shaders (Model/Light) also given at the end of this part. 
+
+Finally I calculate the $$\dot{L}_w$$ for the frame. After calculating it with the following code block, I use LDR to HDR shaders to complete mey rendering. Then I handle keyboard inputs etc. concluding my main loop.
+
+```c++
+void DrawQuad() {
+	glActiveTexture(GL_TEXTURE0);
+	faglBindTexture(fagl::BIND_TEXTURE_TARGET::TEXTURE_2D, colorBuffer);
+	unsigned int cell_count = w * h;
+	GLfloat* data = new GLfloat[cell_count * 4];
+	faglReadPixels(w, h, fagl::READ_PIXEL_FORMAT::RGBA, fagl::READ_PIXEL_TYPE::FLOAT, data);
+
+	GLenum err;
+	while ((err = glGetError()) != GL_NO_ERROR)
+	{
+		std::cout << "err: " << err << std::endl;
+	}
+
+	float average = 0;
+
+	for (unsigned int i = 0; i < cell_count; i++) {
+		float lum = data[i * 4] * 0.2126f + data[i * 4 + 1] * 0.7152f + data[i * 4 + 2] * 0.0722;
+
+		average += log(FLT_EPSILON + lum);
+	}
+
+	if (formula == 1) {
+		calculatedAverageValue = alpha / exp(average / cell_count);
+		if (rolledAverageValue > 0)
+			rolledAverageValue = mixValue * calculatedAverageValue + (1 - mixValue) * rolledAverageValue;
+		else
+			rolledAverageValue = calculatedAverageValue;
+
+		faglUnbindFramebuffer();
+
+		ClearDisplay();
+
+		quad.Draw(rolledAverageValue);
+	}
+	else if (formula == 2) {
+		calculatedAverageValue = exp(average / cell_count);
+		if (rolledAverageValue > 0)
+			rolledAverageValue = mixValue * calculatedAverageValue + (1 - mixValue) * rolledAverageValue;
+		else
+			rolledAverageValue = calculatedAverageValue;
+
+		faglUnbindFramebuffer();
+
+		ClearDisplay();
+
+		quad.Draw(alpha / rolledAverageValue);
+	}
+	else if (formula == 3) {
+		calculatedAverageValue = alpha / exp(average / cell_count);
+		if (rolledAverageValue > 0)
+			rolledAverageValue = exp(mixValue * log(calculatedAverageValue) + (1 - mixValue) * log(rolledAverageValue));
+		else
+			rolledAverageValue = calculatedAverageValue;
+
+		faglUnbindFramebuffer();
+
+		ClearDisplay();
+
+		quad.Draw(rolledAverageValue);
+	}
+	else if (formula == 4) {
+		calculatedAverageValue = exp(average / cell_count);
+		if (rolledAverageValue > 0)
+			rolledAverageValue = exp(mixValue * log(calculatedAverageValue) + (1 - mixValue) * log(rolledAverageValue));
+		else
+			rolledAverageValue = calculatedAverageValue;
+
+		faglUnbindFramebuffer();
+
+		ClearDisplay();
+
+		quad.Draw(alpha / rolledAverageValue);
+	}
+	
+	delete[] data;
+}
+```
 
 ### Shadow Shaders
 
@@ -83,7 +193,7 @@ void main()
 }
 ```
 
-### Render Shaders
+### Render Shaders (Model)
 
 #### Vertex Shader
 
@@ -208,6 +318,73 @@ void main(void)
 	vec3 ambientColor = Iamb * ka;
 
 	fragColor = vec4(diffuseColor + specularColor + ambientColor, 1);
+}
+```
+
+### Render Shaders (Light)
+
+#### Vertex Shader
+
+```c++
+#version 460 core
+
+layout(location=0) in vec3 inVertex;
+
+uniform vec3 lightPos;
+uniform vec3 lightColor;
+
+uniform mat4 modelingMatrix;
+uniform mat4 viewingMatrix;
+uniform mat4 projectionMatrix;
+
+out vec4 fragWorldPos;
+out vec3 fragWorldNor;
+
+void main(void)
+{
+	fragWorldPos = modelingMatrix * vec4(inVertex, 1);
+	fragWorldNor = normalize(vec3(fragWorldPos) - lightPos);
+
+    gl_Position = projectionMatrix * viewingMatrix * fragWorldPos;
+}
+```
+
+#### Fragment Shader
+
+```c++
+#version 460 core
+
+in vec4 fragWorldPos;
+in vec3 fragWorldNor;
+
+uniform vec3 lightPos;
+uniform vec3 lightColor;
+
+uniform vec3 Iamb;
+uniform vec3 ka;
+
+uniform vec3 eyePos;
+
+uniform float colorMultiplier;
+
+out vec4 fragColor;
+
+void main(void)
+{
+	vec3 V = normalize(eyePos - vec3(fragWorldPos));
+	vec3 N = normalize(fragWorldNor);
+
+	float dist = length(vec3(fragWorldPos) - lightPos);
+
+
+	float dotP = dot(N, V);
+
+	vec3 diffuseColor = ((lightColor * colorMultiplier) / (dist * dist)) * max(0, dotP);
+	
+
+	vec3 ambientColor = Iamb * ka;
+
+	fragColor = vec4(diffuseColor + ambientColor, 1);
 }
 ```
 
