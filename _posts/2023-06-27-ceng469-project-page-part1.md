@@ -4,7 +4,8 @@ My project aims to model how the Human Visual System (HVS) adjusts to cahnges in
 
 ## Navigation
 
-
+1. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part1">Theory</a>
+2. <a href="{{site.url}}/2023/06/27/ceng469-project-page-part2">Implementation</a>
 
 ## Backgroud
 
