@@ -62,3 +62,9 @@ $$\begin{align*}
 | $$\begin{align*}&66\\&72\\&73\\&74\end{align*}$$ | $$\begin{align*}&64\\&69\\&70\\&71\end{align*}$$ | $$\begin{align*}&63\\&67\\&67\\&68\end{align*}$$ | $$\begin{align*}&63\\&65\\&65\\&66\end{align*}$$ | $$\begin{align*}&61\\&61\\&61\\&61\end{align*}$$ |
 
 #### Remarks on Formula 2
+
+While looking at the results of Formula 2 in isolation (see <a href="{{site.url}}/2023/06/27/ceng469-project-page-part3-1">Part 3.5: Comparing Results</a> for the big picture), two major phenomenas are significant in my opinion. Even if I am looking Formula 2 in isolotion, I won't be repeating any point I made during my discussion of Formula 1, instead I will reference them
+
+Firstly, the effects of light increaases and decreases are asymetric (just like formula 1), but in this case it takes more time to get use to decreases in the light level instead of increases in the light level. While this asymetry is generally undesirable as I discussed in the remarks of Formula 1, it has some uses. While scenerio 1 becomes very in efective, this simulates how everything becomes hard to see after a flash of light during the scenerio 3 very well.
+
+Secondly, the issue of not being able to similutate afterimages created by sudden flashes persists, but because the methodology lacks a way of differentiating flashes from other changes in light, simple changes in the formula would not be able to to change this fact. 
